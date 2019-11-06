@@ -6,3 +6,140 @@ html{
 *::before{
     box-sizing: inherit;
 }
+@font-face {
+font-family: 'ProximaNova-Black';
+    src: 
+    local('ProximaNova-Black'),
+    url('https://nomail.com.ua/files/eot/317d5480a545edf076e02aacd21f434f.eot?#iefix') format('embedded-opentype'),
+    url('https://nomail.com.ua/files/woff/317d5480a545edf076e02aacd21f434f.woff') format('woff'),
+    url('https://nomail.com.ua/files/woff2/317d5480a545edf076e02aacd21f434f.woff2') format('woff2');
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+
+}
+body{
+    width: 1440px;
+    height: 1195px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #070506 url(../images/main-bg.png) no-repeat;
+}
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 91px;
+    padding-bottom: 111px;
+
+    
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 78px;
+}
+.logo{
+    margin-right: 70px;
+    
+}
+
+.nav__list{
+    display: flex;
+    
+}
+.nav__list li{
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+.hero__subtitle{
+    display: block;
+    font-family: 'ProximaNova-Black', sans-serif;
+    font-size: 40px;
+    line-height: 100%;
+}
+.hero__title{
+    margin-top: 10px;
+    font-family: 'ProximaNova-Black', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+}
+.hero__text{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #AFAFAF;
+    display: block;
+    max-width: 572px;
+    height: 138px;
+}
+.hero__premier{
+    display: block;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B02000;
+}
+.hero__date{
+    display: block;
+    margin-top: 5px;
+    font-size: 24px;
+    line-height: 150%;
+}
+.hero__button-play{
+    position: relative;
+    margin-top: 46px;
+    border: none;
+    background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+    border-radius: 300px;
+    width: 268px;
+    height: 65px;
+}
+.button-play__text{
+    display: block;
+    margin-left: -35px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.button-play{
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #fff url(../images/Play.svg) center no-repeat;
+    background-position: 42% 48%;
+    border-radius: 50%;
+    
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.button-play__play{
+    content: "";
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    right: -8px;
+    top: -8px;
+     
+}
+.button-play:active{
+    background-color: rgba(255, 255, 255, 0.6); 
+}
