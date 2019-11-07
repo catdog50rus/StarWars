@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic"
     rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -30,25 +31,121 @@
       </div>
     </header>
     <main>
-      <div class="hero">
+      <section class="hero">
         <span class="hero__subtitle">Эпизод IX</span>
         <h1 class="hero__title">Скайуокер.Восход</h1>
         <p class="hero__text">
-          Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на все
-          загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия на край
+          Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на
+          все
+          загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия
+          на край
           Галактики и грандиозный финал фантастической саги
         </p>
         <span class="hero__premier">Премьера</span>
         <span class="hero__date">19 декабря 2019</span>
         <button class="hero__button-play">
           <div class="button-play__play"></div>
-          <a href="#" class="button-play"></a>
+          <a 
+            data-fancybox
+            href="https://www.youtube.com/watch?v=7pmP331Rbjk" 
+            class="button-play"></a>
           <span class="button-play__text">Смотреть трейлер</span>
         </button>
-      </div>
+      </section>
+
+      <section class="slider">
+        <div class="slider__title">
+            Предыдущие эпизоды
+          </div>
+        <div class="slider__box">
+
+          <div class="slider__item episode4">
+            
+            <div class="item__date">1977</div>
+            <div class="item__title">Эпизод IV: <br> Новая надежда</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+            <img class="img__item" src="./images/Rectangle-4.png" alt="4">
+          </div>
+
+          <div class="slider__item episode5">
+            <div class="item__date">1980</div>
+            <div class="item__title">Эпизод V: <br> Империя наносит ответный удар</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+            <img class="img__item" src="./images/Rectangle-5.png" alt="5">
+          </div>
+
+          <div class="slider__item episode6">
+            <div class="item__date">1983</div>
+            <div class="item__title">Эпизод VI: <br> Возвращение джедая</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+            <img class="img__item" src="./images/Rectangle-6.png" alt="6">
+          </div>
+
+          <div class="slider__item episode1">
+            <div class="item__date">1999</div>
+            <div class="item__title">Эпизод I: <br> Скрытая угроза</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+            <img class="img__item" src="./images/Rectangle-1.png" alt="1">
+          </div>
+
+          <div class="slider__item episode2">
+            <div class="item__date">1977</div>
+            <div class="item__title">Эпизод II: <br> Новая надежда</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+          </div>
+
+          <div class="slider__item episode3">
+            <div class="item__date">1977</div>
+            <div class="item__title">Эпизод III: <br> Новая надежда</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+          </div>
+
+          <div class="slider__item episode7">
+            <div class="item__date">1977</div>
+            <div class="item__title">Эпизод VII: <br> Новая надежда</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+          </div>
+
+          <div class="slider__item episode8">
+            <div class="item__date">1977</div>
+            <div class="item__title">Эпизод VIII: <br> Новая надежда</div>
+            <div class="item__rating">
+              <span class="rating__title">Рейтинг</span>
+              <span class="rating__stars"></span>
+            </div>
+          </div>
+
+        </div>
+      </section>
     </main>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
