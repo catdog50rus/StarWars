@@ -28,7 +28,7 @@ body{
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background: #070506 url(../images/main-bg.png) no-repeat;
+    background: #070506 url(../images/main-bg.jpg) no-repeat;
 }
 .container{
     max-width: 1060px;
@@ -179,6 +179,7 @@ body{
     
 }
 .slider__item:hover{
+    cursor: pointer;
     background: rgba(69, 83, 139, 0.86);
     transition: .5s;
 }
@@ -203,32 +204,37 @@ body{
     font-weight: 400;
     font-size: 13px;
     line-height: 150%;
+    margin-right: 10px;
 }
-.slider__box .slick-dots{
-    list-style: none;
-    display: flex;
+.star{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url('../images/star.svg') no-repeat center;
+    background-position: 50% -20%;
+}
+.star-o{
+    display: inline-block;
+    width: 12px;
+    height: 11px;
+    background: url('../images/star-o.svg') no-repeat center;
+   
+}
+
+.slider__butt-rigth{
+    width: 32px;
+    height: 32px;
+    background: transparent url('../images/right-arrow.png');
+    font-size: 0;
     border: none;
-    
+    cursor: pointer;
 }
-.slider__box .slick-dots button{
+.slider__butt-left{
     width: 32px;
     height: 32px;
     border: none;
+    background: transparent url('../images/left-arrow.png');
     font-size: 0;
-    margin-left: 15px;
+    margin-right: 20px;
     cursor: pointer;
-}
-.slick-active{
-    border: none;
-}
-#slick-slide-control00{
-    
-    
-    background:url('../images/left-arrow.png');
-   
-}#slick-slide-control01{
-    
-   
-    background:url('../images/right-arrow.png');
-
 }
