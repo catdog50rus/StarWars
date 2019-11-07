@@ -168,8 +168,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 250px;
-    min-height: 200px;
-    padding: 29px;
+    height: 200px;
+    padding: 25px;
     margin-right: 20px;
     margin-bottom: 20px;
     background: rgba(80, 80, 80, 0.75);
@@ -198,9 +198,15 @@ body{
 .item__title{
     font-weight: 900;
     font-size: 18px;
+    line-height: 125%;
+}
+.profit__value{
+    font-weight: 500;
+    font-size: 14px;
     line-height: 150%;
 }
-.rating__title{
+.rating__title,
+.profit__title{
     font-weight: 400;
     font-size: 13px;
     line-height: 150%;
